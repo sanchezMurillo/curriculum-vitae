@@ -1,0 +1,313 @@
+/* Body */
+body {
+	background: url(../pictures/background.jpg);
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+    background-position: center top;
+	background-size: cover;
+   	position: relative !important;
+    padding: 10px;
+}
+
+@media only screen and (max 768px) {
+	.body {
+		background: url(../pictures/background.jpg);
+		align-content: center;
+	}
+}
+
+/* Menu Lateral */
+nav{
+	top: 0px;
+	margin: 0px;
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	background-color: #2d2d2d;
+	display: block;
+}
+
+ul.nav{
+	margin-top: 150px;
+	list-style: none;
+	display: block;
+}
+
+.borde{
+	width: 99%;
+	height: 50px;
+	border: 1px solid #323232;
+	overflow: hidden;
+}
+
+.menu{
+	position: relative;
+	padding-right: 30px;
+	float: right;
+	color: white;
+	opacity: .6;
+	font-size: 1.4em;
+	-webkit-transition: opacity .2s;
+}
+
+div.barra{
+	position: absolute;
+	height: 50px;
+	width: 0px;
+	background-color: #aaa;
+	opacity: .1;
+	-webkit-transition: width .2s;
+	-moz-transition: width .2s;
+	-ms-transition: width .2s;
+	-o-transition: width .2s;
+}
+
+li:hover div.barra{
+	width: 300px;
+}
+
+li:hover p.menu{
+	opacity: 1;
+}
+
+/* Propiedades del Contenido */
+.titulo-principal {
+	color: #59A6C7;
+	border-bottom: 1px solid #ccc;
+	margin-bottom:0px;
+    padding-bottom: 5px;
+	padding-top: 30px;
+	text-transform: uppercase;
+	font-size: 48px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	margin-top: 0px;
+}
+
+.titulo-secundario{
+	color: /*#A72E30 */#2a5479;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+.subtitulo{
+	color: /*#A72E30*/ #3aa4d6;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin-top: 0px;
+	padding-top: 10px;
+}
+
+p{
+	font-size: 20px;
+	/*color: #EDEBEB;*/
+	color: #555555;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+/*.parrafo{
+	font-size: 20px;
+	color: #EDEBEB;
+	color: #555555;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}*/
+/* Atributos de las margenes laterales del contenido general de todas las etiquetas section - Nombre de la clase expuesto a cambio del mismo */
+/*.margen{
+	margin-top: 20px;
+	margin-left: 150px;
+	margin-right: 50px;
+	padding: 25px;
+	padding-bottom: 0px;
+}*/
+
+ul{
+	display: block;
+	/*padding-left: 0px;*/
+/*	list-style-type: circle;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;*/
+    -webkit-padding-start: 0px;
+}
+
+li{
+	display: list-item;
+	font-style: normal;
+	list-style-position: inside;
+	text-align: left;
+}
+
+/* ==========================================================
+! 7. Profile intro
+========================================================== */
+/*.profile-intro {
+  margin-top: 50px;
+  position: relative;
+  z-index: 99;
+}
+@media (min-width:992px) {
+  .profile-intro {
+    height: 245px;
+  }
+}*/
+.profile-pic {
+  	text-align: center;
+  	border-radius: 100%;
+  	-moz-border-radius: 100%;
+  	-webkit-border-radius: 100%;
+  	width: 250px;
+  	height: 250px;
+  	border: 5px solid #249991;
+  	overflow: hidden;
+  	margin: 21px auto;
+}
+.profile-pic img {
+  	width: 210px;
+  	height: 210px;
+  	margin-top: 20px;
+  	border-radius: 100%;
+  	-moz-border-radius: 100%;
+  	-webkit-border-radius: 100%;
+  	overflow: hidden;
+  	-webkit-transition: all 0.3s ease-in-out;	
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+/* Section Perfil */
+section{
+	background-color: #F9F9F9;
+	/*padding: 30px;*/
+}
+
+/* foto de perfil */
+
+/* Section Seccion */
+.seccion{
+	padding:30px;
+	padding-left:120px;
+	padding-right:100px;
+}
+
+
+/* Section Perfil */
+.perfil{
+	margin-top:0px;
+	margin-bottom:0px;
+	border-top-width:1px;
+	padding-top:90px;
+	padding-left:330px;
+	padding-right:0px;
+	border-right-width:50-;
+}
+
+/* Section Informacion Personal */
+.informacion-personal{
+
+}
+
+/* Section Educacion */
+.educacion{
+
+}
+
+/* Section Experiencia Laboral */
+.experiencia-laboral{
+	font-size: 14px;
+}
+
+.list-style{
+	list-style-position: inside;
+	list-style: circle;
+	display: block;
+    line-height: 1;
+}
+
+.fecha-de-graduacion, .fecha-ingreso-retiro {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+/* Section Habilidades */
+.skills-list {
+    list-style: none;
+}
+
+/*ul {
+    margin: 0;
+    padding: 0;
+}*/
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+
+.progress-bar {
+    background: #249991;
+    width: 20%;
+}
+
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-size: 13px;
+    padding: 3px 30px 2px 10px;
+    color: #ffffff;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+    color: #888;
+    font-size: 14px;
+}
+
+
+
+/* Section Intereses */
+.intereses{
+
+}
+
+/* Section Portafolio */
+.portafolio{
+
+}
+
+/* Footer */
+.pie-de-pagina{
+	background-color: #8F2C2E;
+	padding: 1px;
+	/*padding-left: 20px;
+	padding-bottom: 20px;*/
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+p.quote {
+  color: #fff;
+  /*font-size: 20px;
+  font-weight: 200;
+  margin: 15px;*/
+  padding-top: 20px;
+}
+
+p.autor {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  /*padding-top: 15px;
+  padding-bottom: 15px;*/
+}
