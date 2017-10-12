@@ -27,6 +27,12 @@ nav{
 	display: block;
 }
 
+@media only screen and (max 768px){
+	nav{
+		display: none;	
+	}
+}
+
 ul.nav{
 	margin-top: 150px;
 	list-style: none;
