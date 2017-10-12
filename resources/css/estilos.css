@@ -9,8 +9,8 @@ body {
     padding: 10px;
 }
 
-@media only screen and (max 768px) {
-	.body {
+@media (min-width: 240px) and (max-width: 768px) {
+	body {
 		background: url(../pictures/background.jpg);
 		align-content: center;
 	}
