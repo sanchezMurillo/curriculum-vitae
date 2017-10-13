@@ -117,6 +117,42 @@ p{
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
+@media (min-width:280px) and (max-width:1024px){
+	.titulo-principal {
+		text-align: center;
+		border-bottom: 2px solid #59A6C7;
+		margin-bottom: 0px;
+		padding-bottom: 5px;
+		padding-top: 0px;
+		text-transform: uppercase;
+		font-size: 48px;
+		margin-top: 0px;
+	}
+	
+	.titulo-secundario, .subtitulo{
+		color: #2a5479;
+		text-align: center;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 10px;
+		padding-bottom: 5px;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	}
+
+	p{
+		font-size: 16px;
+		text-align: center;
+		margin-top:0px;
+		margin-left: 10px;
+		margin-right: 50px;
+		margin-bottom:0px;    
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+	}
+}
+
+
 /*.parrafo{
 	font-size: 20px;
 	color: #EDEBEB;
