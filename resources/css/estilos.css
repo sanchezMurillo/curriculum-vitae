@@ -117,7 +117,7 @@ p{
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
-@media (min-width:280px) and (max-width:1024px){
+@media (min-width:280px) and (max-width:768px){
 	.titulo-principal {
 		text-align: center;
 		border-bottom: 2px solid #59A6C7;
