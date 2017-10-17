@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">	
  <head>
  	<meta charset="utf-8">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="resources/css/estilos.css">
     <!-- /Theme Styles --> 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">-->
     <!-- /Bootstrap CSS -->
     
     <!-- Favicon Icon
@@ -33,7 +33,7 @@
    <!-- div row --> 
    <div class="row">
      <!-- div col-sm-3 -->
-     <div class="col-sm-3"> <!--style="background-color:lavender;">.col-sm-3-->
+     <div class="col-sm-3">
  	  <!-- nav -->
       <nav>
         <ul class="nav">
@@ -67,6 +67,13 @@
             </li>
           </a>
           
+          <a href="#habilidades">      
+            <li class="borde">
+              <div class="barra"></div>
+           	  <p class="menu">habilidades</p>
+            </li>
+          </a>
+          
           <a href="#intereses">      
             <li class="borde">
               <div class="barra"></div>
@@ -85,183 +92,187 @@
       <!-- /nav -->
      </div>
      <!-- /div col-sm-3 -->
-     
-     <!-- div col-sm-4 -->
-     <!--<div class="col-sm-4" style="background-color:green;">.col-sm-4
-       <section class="section foto-perfil">
-         <div class="profile-pic">
-           <div class="profile-border">
-             <img src="resources/pictures/profile-pic.jpg"  alt="Profile pic">
-           </div>
-         </div>
-       </section>
-     </div>-->
-     <!-- /div col-sm-4 -->
+   </div>
+   <!-- /div row -->
+  </div>
+  <!-- /div container --> 
   
-     <!-- div col-sm-9 -->
-     <div class="col-sm-9" style="background-color:red;">.col-sm-9
      
-     
-     <!-- div col-sm-4 -->
-     <div class="col-sm-4" style="background-color:green;">.col-sm-4
-       <section>
-         <!-- Avatar pic -->
-         <div class="profile-pic" style="margin-left:5px;margin-bottom:0px;">
-           <div class="profile-border">
-             <!-- Put your picture here ( 308px by 308px for retina display) -->
-             <img src="resources/pictures/profile-pic.jpg"  alt="Profile pic">
-             <!-- /Put your picture here -->
+  <!-- div container -->
+  <div class="container">
+   <!-- div row --> 
+   <div class="row">
+   	 <!-- div col-sm-5 -->
+   	 <div class="col-sm-9">
+       <!-- section -->
+       <section class="margen-superior">
+         <a name="perfil"</a>
+         <!-- article profile pic -->
+         <article>
+           <div class="col-sm-4" align="center">
+             <div class="profile-pic">
+               <img src="resources/pictures/profile-pic.jpg"  alt="Profile pic">
+             </div>
            </div>
-         </div>
-         <!-- /Avatar pic -->
+         </article>
+         <!-- /article profile pic -->
+         
+         <!-- article profile -->  
+         <article class="profile">
+           <div class="col-sm-5">
+             <h1 class="titulo-principal">perfil</h1>
+             <p>Técnico en Programación de Software en capacidad de realizar análisis y programación en lenguaje JAVA, con conocimientos básicos en bases de datos en SQL Server. Con capacidad analítica, aprendizaje continuo, recursividad, organización y orientación al logro.</p>
+           </div>
+         </article>
+         <!-- /article profile -->
        </section>
-     </div>
-     <!-- /div col-sm-4 -->
-     
-     
-     
-     <!-- añadir un enlace anclado a un punto de una misma página en html5. Paso final -->
-     <a name="perfil"></a>
-     <!-- /añadir un enlace anclado a un punto de una misma página en html5. Paso final -->
-     
-     <!-- section perfil -->
-     <section>
-       <h1 class="titulo-principal" style="margin-left: 10px;
-    margin-bottom: 0px;
-    margin-top: 10px;
-    margin-right: 10px;">perfil</h1>
-       <p class="parrafo" style="margin-top:0px;margin-bottom:0px;    margin-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;;">Técnico en Programación de Software en capacidad de realizar análisis y programación de software en lenguaje JAVA, con conocimientos básicos en bases de datos en SQL Server. Con capacidad analítica, aprendizaje continuo, recursividad, organización y orientación al logro.</p>
-     </section>
-     <!-- /section perfil -->  
+       <!-- /section -->
      </div>
      <!-- /div col-sm-5 -->
-     	
-      
+   </div>
+   <!-- /div row -->
+  </div>
+  <!-- /div container -->
+  
+  <!-- div container --> 		
+  <div class="container">
+    <!-- div row -->
+    <div class="row">
+      <!-- div col-sm-9 -->
+      <div class="col-sm-9">
+        <!-- div col-sm-9 -->  
+        <div class="col-sm-7">
+            <!-- section -->
+            <section>       
+              <!-- article información personal -->
+              <a name="informacion-personal"></a>
+              <article>
+                <h2 class="titulo-secundario">información personal</h2>
+                <h3 class="subtitulo">nombre</h3>
+                <p>Jhon Michael Sánchez Murillo</p>
+                <h3 class="subtitulo">email</h3>
+                <p><a href="mailto:sanchezmurillojhonmichael@gmail.com"> sanchezmurillojhonmichael@gmail.com</a></p>
+                <h3 class="subtitulo">celular</h3>
+                <p>(57) 3125011098</p>
+              </article>
+              <!-- /article información personal -->
+              
+                
+              <!-- article educación-->
+              <a name="educacion"></a>
+              <article>
+                <h2 class="titulo-secundario">educación</h2>
+                <h3 class="subtitulo">nivel educativo</h3>
+                <h4>Ingenieria de Sistemas</h4>
+                <h4>Técnico en programación de software</h4>
+        
+              </article>
+              <!-- article educación-->
+              
+              
+              <!-- article experiencia laboral -->
+              <a name="experiencia-laboral"></a>
+              <article>
+                <h2 class="titulo-secundario">experiencia laboral</h2>
+                <h3 class="subtitulo"><i class="icono-lista-trabajo"></i>diebold colombia s.a -<span class="fecha-de-graduacion"> Dic 2015 - Jun 2016</span></h3>
+                <h4>auxiliar de apoyo de ingeniero back office</h4>
+                <h5>Tipo experiencia laboral: Pasantía o Práctica Laboral</h5>
+                <p class="parrafo">Funciones y logros</p>
+                <ul class="list-style"> 
+                  <li>Recopilar datos del diseño y ejecución del almacenamiento de datos acerca del proceso de
+        creación, configuración y cargue masivo de cajeros automáticos.</li>
+                  <li>Elaborar documentación del informe de requerimientos.</li>
+                  <li>Atender las necesidades y solicitudes del cliente mediante la gestión de emails con respecto al tratamiento de los datos de los cajeros automáticos de los clientes asignados.</li>
+                  <li>Verificar y validar los datos de los cajeros creados y almacenados en la base de datos de acuerdo a la información suministrada por el cliente para anticipar sus necesidades y aplicar estrategias de identificación en busca de errores y duplicidad de datos.</li>
+                  <li>Ingresar y modificar datos de equipos y sitios de un cajero en la base de datos de la compañía a solicitud del cliente.</li>	
+                </ul>
+              </article>
+              <!-- /article experiencia laboral -->
+              
+              
+              <!-- article intereses -->
+              <a name="habilidades"</a>
+              <article>
+                <h3 class="titulo-secundario">habilidades</h3>
+                <h4 class="subtitulo">habilidades profesionales</h4>
+                
+                <h4 class="subtitulo">habilidades de código</h4>
+                  <ul class="skills-list">
+                    <!-- item-list -->
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar" data-percent="90%" role="progressbar" style="width: 90%;">
+                          <span class="sr-only">90% Complete</span>
+                        </div>
+                        <span class="progress-type">HTML5 / CSS3</span>
+                        <span class="progress-completed">90%</span>
+                      </div>
+                    </li>
+                    <!-- /item list -->
+        
+                  </ul>
+              </article>
+              <!-- article intereses -->
+              
+              
+              <!-- article intereses -->
+              <a name="intereses"></a>
+              <article>
+                <h2 class="titulo-secundario">intereses</h2>
+                <h3 class="subtitulo">pasatiempos</h3>
+                <p class="parrafo">Resolución de retos de programación de todo tipo: principiante, ad-hoc, algorithms (Warmup Challenges, Implementation, Strings, Sorting, Search, Graph Theory, Greedy, Dynamic Programming, Constructive Algorithms, Bit Manipulation, Recursion, Game Theory, NP Complete), Data Structures (Arrays, Linked Lists, Trees, Balanced Trees, Stacks Queues, Heap, Disjoint Set, Multiple Choice, Trie, Advanced), Mathematics (Fundamentals, Number Theory, Combinatorics, Algebra, Geometry, Probability, Linear Algebra, Foundations), paradigmas, graph, geometría computacional, etc… en plataformas de competicion online de la web HackerEarth, HackerRank, URI Online Judge.
+        Basic programming,</p>
+                <h3 class="subtitulo">libros favoritos de programación</h3>
+                  <ul style="list-style:none;">
+                    <a href="https://www.amazon.com/Problemas-programaci%C3%B3n-competitiva-Ejercicios-resueltos/dp/3659092800" target="_blank"><li><p class="parrafo">Problemas de programación: un enfoque en la programación competitiva - Julio J. Castillo, Diego J. Serrano, Marina E. Cardenas</p></li></a>
+                    <li><p class="parrafo">Code Clean - Robert C. Martin</li>
+                    <li><p class="parrafo">Effective Java - Joshua Bloch</li>	
+                  </ul>
+                
+                <h3 class="subtitulo">perfiles programacion competitiva</h3>
+                  <ul style="list-style:none;">
+                    <a href="https://www.hackerearth.com/es/@sanchezmurillo" target="_blank"><li><p class="parrafo">HackerEarth</p></li></a>
+                    <li><a href="https://www.hackerrank.com/jhonMichael" target="_blank"><p class="parrafo">HackerRank</p></a></li>
+                    <li><a href="https://www.urionlinejudge.com.br/judge/es/profile/181083" target="_blank"><p class="parrafo">URI</p></a></li>
+                  </ul>
+              </article>
+              <!-- /article intereses -->
+              
+              <!-- article portafolio -->
+              <a name="portafolio"></a>
+              <article>
+              <h2 class="titulo-secundario">portafolio</h2>
+              <h3 class="subtitulo"></h3>
+              </article>
+              <!-- article portafolio -->	
+          </section>
+          <!-- section -->
+   </div>
+     <!-- /div col-sm-9 -->
+   </div>
+   <!-- /div row -->
+  </div>
+  <!-- /div container --> 
+  
+  <div class="container">
+   <!-- div row --> 
+   <div class="row">
      <!-- div col-sm-9 -->
-     <div class="col-sm-9" style="margin-top:0px;margin-bottom:0px;padding-top:1px;border-bottom-width:0px;padding-left:0px;padding-right:0px;padding-bottom:0px;"> <!--style="background-color:salmon;">.col-sm-9--> 
-     <!-- section información personal -->
-     <a name="informacion-personal"></a>
-     <section class="seccion">
-       <h2 class="titulo-secundario">información personal</h2>
-       <h3 class="subtitulo">nombre</h3>
-       <p class="parrafo">Jhon Michael Sánchez Murillo</p>
-       <h3 class="subtitulo">email</h3>
-       <p class="parrafo"><a href="mailto:sanchezmurillojhonmichael@gmail.com"> sanchezmurillojhonmichael@gmail.com</a></p>
-       <h3 class="subtitulo">celular</h3>
-       <p class="parrafo">(57) 3125011098</p>
-       <h3 class="subtitulo">redes sociales</h3>
-      </section>
-      <!-- /section información personal -->
-      
-      	
-      <!-- section educación-->
-      <a name="educacion"></a>
-      <section class="seccion">
-        <h2 class="titulo-secundario">educación</h2>
-        <h3 class="subtitulo">nivel educativo</h3>
-        <h4>Ingenieria de Sistemas</h4>
-        <h4>Técnico en programación de software</h4>
-
-      </section>
-      <!-- section educación-->
-      
-      <!-- section experiencia laboral -->
-      <a name="experiencia-laboral"></a>
-      <section class="seccion">
-        <h2 class="titulo-secundario">experiencia laboral</h2>
-        <h3 class="subtitulo"><i class="icono-lista-trabajo"></i>diebold colombia s.a -<span class="fecha-de-graduacion"> Dic 2015 - Jun 2016</span></h3>
-        <h4>auxiliar de apoyo de ingeniero back office</h4>
-        <h5>Tipo experiencia laboral: Pasantía o Práctica Laboral</h5>
-        <p class="parrafo">Funciones y logros</p>
-        <ul class="list-style"> 
-          <li>Recopilar datos del diseño y ejecución del almacenamiento de datos acerca del proceso de
-creación, configuración y cargue masivo de cajeros automáticos.</li>
-	      <li>Elaborar documentación del informe de requerimientos.</li>
-		  <li>Atender las necesidades y solicitudes del cliente mediante la gestión de emails con respecto al tratamiento de los datos de los cajeros automáticos de los clientes asignados.</li>
-		  <li>Verificar y validar los datos de los cajeros creados y almacenados en la base de datos de acuerdo a la información suministrada por el cliente para anticipar sus necesidades y aplicar estrategias de identificación en busca de errores y duplicidad de datos.</li>
-		  <li>Ingresar y modificar datos de equipos y sitios de un cajero en la base de datos de la compañía a solicitud del cliente.</li>	
-        </ul>
-        
-        
-      </section>
-      <!-- /section experiencia laboral -->
-      
-      
-      <!-- section intereses -->
-      <a name="habilidades"</a>
-      <section class="seccion">
-        <h3 class="titulo-secundario">habilidades</h3>
-        <h4 class="subtitulo">habilidades profesionales</h4>
-        
-        <h4 class="subtitulo">habilidades de código</h4>
-          <ul class="skills-list">
-            <!-- item-list -->
-            <li>
-              <div class="progress">
-                <div class="progress-bar" data-percent="90%" role="progressbar" style="width: 90%;">
-                  <span class="sr-only">90% Complete</span>
-                </div>
-                <span class="progress-type">HTML5 / CSS3</span>
-                <span class="progress-completed">90%</span>
-              </div>
-            </li>
-            <!-- /item list -->
-
-          </ul>
-      </section>
-	  <!-- section intereses -->
-      
-      
-      <!-- section intereses -->
-      <a name="intereses"></a>
-      <section class="seccion">
-        <h2 class="titulo-secundario">intereses</h2>
-        <h3 class="subtitulo">pasatiempos</h3>
-        <p class="parrafo">Resolución de retos de programación de todo tipo: principiante, ad-hoc, algorithms (Warmup Challenges, Implementation, Strings, Sorting, Search, Graph Theory, Greedy, Dynamic Programming, Constructive Algorithms, Bit Manipulation, Recursion, Game Theory, NP Complete), Data Structures (Arrays, Linked Lists, Trees, Balanced Trees, Stacks Queues, Heap, Disjoint Set, Multiple Choice, Trie, Advanced), Mathematics (Fundamentals, Number Theory, Combinatorics, Algebra, Geometry, Probability, Linear Algebra, Foundations), paradigmas, graph, geometría computacional, etc… en plataformas de competicion online de la web HackerEarth, HackerRank, URI Online Judge.
-Basic programming,</p>
-        <h3 class="subtitulo">libros favoritos de programación</h3>
-          <ul style="list-style:none;">
-            <a href="https://www.amazon.com/Problemas-programaci%C3%B3n-competitiva-Ejercicios-resueltos/dp/3659092800" target="_blank"><li><p class="parrafo">Problemas de programación: un enfoque en la programación competitiva - Julio J. Castillo, Diego J. Serrano, Marina E. Cardenas</p></li></a>
-            <li><p class="parrafo">Code Clean - Robert C. Martin</li>
-            <li><p class="parrafo">Effective Java - Joshua Bloch</li>
-	    <li><p class="parrafo">The Principles of Object-Oriented JavaScript - Nicholas C. Zakas</li>
-	    <li><p class="parrafo">Effective Java - Joshua Bloch
-            <li><p class="parrafo">C# in Depth - Jon Skeet</li>
-	    <li><p class="parrafo">JavaScript: The Good Parts - Douglas Crockford</li>
-	    <li><p class="parrafo">Soft Skills: The software developer's life manual - John Somnez</li>		
-          </ul>
-        
-        <h3 class="subtitulo">perfiles programacion competitiva</h3>
-          <ul style="list-style:none;">
-            <a href="https://www.hackerearth.com/es/@sanchezmurillo" target="_blank"><li><p class="parrafo">HackerEarth</p></li></a>
-            <li><a href="https://www.hackerrank.com/jhonMichael" target="_blank"><p class="parrafo">HackerRank</p></a></li>
-            <li><a href="https://www.urionlinejudge.com.br/judge/es/profile/181083" target="_blank"><p class="parrafo">URI</p></a></li>
-          </ul>
-      </section>
-      <!-- /section intereses -->
-      
-      <!-- section portafolio -->
-      <a name="portafolio"></a>
-      <section class="seccion">
-      <h2 class="titulo-secundario">portafolio</h2>
-      <h3 class="subtitulo"></h3>
-    	
-      </section>
-      <!-- section portafolio -->
-      
+     <div class="col-sm-9" style="margin-bottom:80px;height:100px;"> 
+   
       <!-- Footer -->
-  	  <footer class="pie-de-pagina" id="color">
+  	  <footer>
         <p class="quote">"The only person you are destined to become, is the person you decide to be."</p>
-        <p class="autor">Ralph Waldo Emerson</p>
+        <p class="author">Ralph Waldo Emerson</p>
         <!--<p class="quote">"The only way to define your limits is by  going  beyong  them."</p>
         <p class="author">Arthur C. Clarke</p>-->
       </footer>
       <!-- /Footer -->
-      
+        
+        </div>
+        <!-- div col-sm-9 -->
       </div>
-     <!-- /div col-sm-8 -->
+     <!-- /div col-sm-9 -->
    </div>
    <!-- /div row -->
   </div>
