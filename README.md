@@ -1,7 +1,8 @@
-# curriculum-vitae
+<p aling="center">
+  <a href=""><img src="https://cdn.pixabay.com/photo/2017/05/09/00/15/resume-2296951_960_720.png"></a>
+</p>
 
-Curriculum Vitae
+#Curriculum Vitae
 
-Proyecto web desarrollado en html5 y css3. 
-Contiene protocolos de ajuste de pantalla para dispositivos moviles (smartphone-tablet) y ajuste de pantalla tipo escritorio (desktop, laptop).
-Cuenta con una vista de pantalla elaborada en formato de hoja de vida personalizada, con un contenido sencillo y simple, con barra de menu lateral fija en el lado izquierdo disponible para dispositivos con resolucion de pantalla mayor o igual a 1024px de ancho, y 100% de alto. La barra de menu contiene una lista no ordenada de elementos que definen el cuerpo de texto del documento.
+
+
