@@ -121,20 +121,6 @@ footer p {
   top: 50px;
   margin: 80px auto;
 }
-/*
-.profile img {
-  float: left;
-  margin: 0 80px 50px 0;
-
-}
-*/
-@media (min-width:320px) and (max-width:768px) {
-  .profile img {
-    position: relative;
-    float: none;
-    margin: 0 auto;
-  }
-}
 
 .profile p {
   margin-bottom: 40px;
