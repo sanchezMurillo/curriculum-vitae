@@ -109,6 +109,7 @@ footer p {
   .container {
     margin: 0 70px;
     padding: 0 50px;
+    height: 100%;
     max-width: 850px;
   }
 }
