@@ -1,140 +1,272 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Curriculum Vitae</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
-	  <link href="style.css" type="text/css" rel="stylesheet">
-  </head>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Curriculum Vitae</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+<!-- <link rel="shortcut icon" type="image/x-icon" href="img/curriculum-vitae.ico"> -->	
+</head>
+<body>
+	<header>
+		<i id="button-menu" class="fa fa-bars"></i>
+		<nav class="navegacion">
+			<ul class="menu">
+				<li class="title-menu">Todas las categorias</li>
+				<li><a href="#intro"><i class="fa fa-home icon-menu"></i>Intro</a></li>
+				<li class="item-submenu" menu="1">
+					<a href="#skills"><i class="fa fa-suitcase icon-menu"></i>Skills</a>
+					<ul class="submenu">
+						<li class="title-menu"><i class="fa fa-check-square-o icon-menu"></i>Skills</li>
+						<li class="go-back">Atras</li>
+						<li><a href="#professional-skills">Professional Skills</a></li>
+						<li><a href="#code-skills">Code Skills</a></li>
+					</ul>
+				</li>
+				<li><a href="#"><i class="fa fa-shopping-bag icon-menu"></i>Tienda</a></li>
+				<li><a href="#"><i class="fa fa-envelope icon-menu"></i>Contacto</a></li>
+				<li><a href="#"><i class="fa fa-tag icon-menu"></i>Blog</a></li>
+			</ul>
+		</nav>
+	</header>
 
-  <body>
-    <header>
-      <div class="container">
-      <nav>      
-          <ul>
-            <li><a href="#profile">profile</a></li>
-            <li><a href="#objectives">objectives</a></li>
-            <li><a href="#experience">experience</a></li>
-            <li><a href="#education">education</a></li>
-            <li><a href="#skills">skills</a></li>
-            <li><a href="#interests">interests</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-          </ul>
-      </nav>
-      </div>
-    </header>
-    
-    <section>
-      <article class="profile" id="profile">
-        <div class="container" align="center">
-          <img src="img/profile-pic.jpg">
-        </div>
+	<div class="up">
+		<span class="fa fa-chevron-up"></span>
+	</div>
 
-	      <div class="container">
-          <h1>profile</h1> 
-            <p>En este espacio del currículo resalta lo académico y profesional y, preferiblemente, cosas medibles. (ejemplo: administrador de empresas, bilingüe, con tantos años de experiencia, y en qué tipos de empresa ha trabajado.)<br /> <br /> En el perfil profesional primero debe ir la parte académica y luego comenzar a hablar de la experiencia que se tiene. Pon información tangible, concreta. Si el seleccionador no puede medir o comprobar la información, podrá pensar cualquier cosa o hacer interpretaciones equivocadas. Se aconseja escribir el perfil profesional en primera persona. <br /> <br /> ¿Qué es lo que no debes poner? <br /> <br /> “No puedes poner, por ejemplo, que eres alguien orientado al logro, o cosas que no sean medibles ni comprobables, como que eres honesto y buena persona. Esos son cualidades y valores que no se pueden demostrar por lo menos en primera instancia”. <br /> <br /> Software Programming Technician in ability to perform analysis and programming in <strong>JAVA</strong> language. <br /> <br />Técnico en Programación de Software en capacidad de realizar análisis y programación en lenguaje JAVA, con conocimientos básicos en bases de datos en SQL Server. Con capacidad analítica, aprendizaje continuo, recursividad, organización y orientación al logro.</p>
-        </div>
-      </article>
-      
-      <article id="objectives">
-        <div class="container">
-          <h2>objectives</h2>
-          <p>El Objetivo Profesional consiste en responder a dos preguntas: ¿Qué queremos? (cuales son mis intereses y qué motivaciones tenemos) y ¿qué podemos ofrecer? (es decir, nuestras aptitudes, actitudes, competencias, formación y experiencia). Igualmente lo podemos emplear para ponerlo en el currículum vitae y/o en la carta de presentación e incluso también nos sirve para la entrevista. Definir nuestro objetivo profesional nos permite conocer que puestos de trabajo vamos a buscar y que podemos ofrecer como posibles candidatos. <br /> <br />Para ayudaros a realizar vuestro objetivo profesional podéis comenzar analizando vuestras experiencias en los siguientes apartados que os proponemos <br /> 
-            <ol>
-              <li>Tipo de empresa: (Pública, Privada, Mixta, Familiar….)</li>
-              <li>Sector: (Educación, Sanidad, Hostelería…)</li>
-              <li>Desarrollo de trabajo: (Funciones a desarrollar)</li>
-              <li>Nivel (Auxiliar, Técnico, Gerente, Director….)</li>
-              <li>Sueldo: (Siempre anual bruto)</li>
-              <li>Horario: (Mañana, Tarde, Noche)</li>
-              <li>Jornada: (Total, Parcial, Turnos…)</li>
-              <li>Ámbito Geográfico: Nacional, Internacional…</li>
-            </ol>
-          </p>
-        </div>
-      </article>
-        
-      <article id="experience">
-        <div class="container">
-          <h2>experience</h2>
-          <h3>PUESTO • COMPAÑÍA • FECHAS DE INICIO Y FIN <br /> auxiliar administrativo y de apoyo de ingeniero back office <br /> diebold colombia s.a • 22 de diciembre de 2015 - 21 de junio de 2016</h3>
-          <h4>Tipo experiencia laboral: Pasantía o Práctica Laboral</h4>
-          <p>Resuma sus responsabilidades principales, liderazgo y sus logros más destacados.  No indique todo; incluya solo los datos relevantes que muestren la eficacia de su trabajo. <br /> <br /> 
-            <ol>
-              <li>Gestionar los servicios administrativos y de apoyo</li>
-              <li>Prestar y coordinar los servicios de mantenimiento preventivo y correctivo a las instalaciones, equipos, maquinaria, muebles y enseres de la Universidad.</li>
-              <li>Recopilar datos del proceso de creación, configuración, cargue y almacenamiento de información de cajeros automáticos a traves del uso de la herramienta de software de la compañia.</li>
-			  <li>Elaborar informe de requerimientos.</li>
-			  <li>Atender las necesidades y solicitudes del cliente mediante la gestión de emails con respecto al tratamiento de los datos de los cajeros automáticos de los clientes asignados.</li>
-			  <li>Verificar y validar los datos de los cajeros creados y almacenados en la base de datos de acuerdo a la información suministrada por el cliente para anticipar sus necesidades y aplicar estrategias de identificación en busca de errores y duplicidad de datos.</li>
-			  <li>Ingresar y modificar datos de equipos y sitios de un cajero en la base de datos de la compañía a solicitud del cliente.</li>
-		    </ol>
-          </p>
-          <h2>voluntary or leadership experience</h2>
-          <p>¿Ha administrado un equipo de un club, liderado un proyecto para su organización benéfica favorita o ha editado el periódico de su centro educativo? Prosiga y describa las experiencias que ilustran sus habilidades de liderazgo.</p>
-        </div>
-      </article>
-    
-      <article id="education">
-        <div class="container">
-          <h2>education</h2>
-          <h3>TITULACIÓN • FECHA DE OBTENCIÓN • CENTRO EDUCATIVO </h3>
-          <h3>ingenieria de sistemas • universidad central</h3>
-          <p>Puede incluir su calificación promedio y un resumen de trabajos de clase, premios y matrículas de honor relevantes.</p>
-          <h3>técnico en programación de software • 11-08-16 • sena </h3>
-          <p>Puede incluir su calificación promedio y un resumen de trabajos de clase, premios y matrículas de honor relevantes. <br/ > <br/ >
-            <ul>
-              <li>
-                <a href=""></a>
-              </li>
-            </ul> 
-          </p>
-        </div>
-      </article>
-    
-      <article id="skills">
-        <div class="container">  
-          <h2>skills</h2>
-          <p>Explique qué se le da especialmente bien. ¿Qué diferencias tiene con respecto a los demás? Use su propio idioma, no jergas.</p>
-          <h3>professional skills</h3>
-          <h3>code skills</h3>
-        </div>
-      </article>  
-    
-      <article id="interests">
-        <div class="container">
-          <h2>interests</h2>
-          <h3>Objetivos cumplidos</h3>
-          <h4>Learn Java</h4>
-          <h4>Learn HTML</h4>
-          <h3>profiles learn online courses</h3>
-            <ul>
-              <li><a href="https://www.codecademy.com/es/sanchezMurillo" target="_blank">Codecademy</a></li>
-            </ul>
-          <h3>competitive programming profiles</h3>
-            <ul>
-              <li><a href="https://www.hackerearth.com/es/@sanchezmurillo" target="_blank">HacherEarth</a></li>
-              <li><a href="https://www.hackerrank.com/jhonMichael" target="_blank">HacherRank</a></li>
-            </ul>
-        </div>
-      </article>
-    
-      <article id="portfolio">
-        <div class="container">
-          <h2>portfolio</h2>
-          <ul>
-            <li>HTML5 - CSS3</li>
-            <li>Java</li>
-          </ul>
-        </div>
-      </article>
+	<section class="profile" id="intro">
+		<div class="profile-container">
+			<article class="profile-item profile-pic" align="center">
+				<img src="img/profile-pic.jpg" alt="">
+			</article>
+			<article class="profile-item profile-text">
+				<h1>Hello, I'm <strong>Jhon Michael</strong></h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dicta id quisquam autem perferendis quis vero consequuntur perspiciatis. Et magni eveniet odit illum ut quasi, debitis fuga. Saepe obcaecati vero at rem voluptates culpa atque vel molestiae! Animi alias repudiandae qui optio laboriosam velit culpa. Perspiciatis perferendis architecto, possimus non sunt tenetur facilis a nihil nostrum vero similique quod assumenda sequi blanditiis cumque placeat, deserunt adipisci quam itaque quidem, beatae totam optio sint eveniet. Nemo perferendis rem cupiditate dolor, iusto, nulla esse ut facere! Porro dolorem culpa eum accusantium praesentium cum quae eligendi sint voluptate ut in ratione ipsa impedit, sed ipsum, repellat tempora molestiae non cumque nulla dolore! Et esse beatae repellat excepturi aliquid deserunt totam nihil soluta ipsa.</p>
+			</article>
+		</div>
+	</section> 
+
+	<section class="skills" id="skills">
+		<h1>Skills</h1>
+		<div class="skills-container">
+			<article class="professional-skills">
+				<h2 id="professional-skills">Professional Skills</h2>
+				<ul>
+					<li>
+						<div class="progress-bar">
+							<div class="progress progress-bar-1" style="width: 85%;">
+								<span class="progress-type">Comunication</span>
+								<span class="progress-completed">85%</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="progress-bar">
+							<div class="progress progress-bar-2" style="width: 10%;">
+								<span class="progress-type">Leadership</span>
+								<span class="progress-completed">10%</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="progress-bar">
+							<div class="progress progress-bar-3" style="width: 5%;">
+								<span class="progress-type">Confidence</span>
+								<span class="progress-completed">5%</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</article>
+		</div>
+		
+		<div class="skills-container">
+			<article class="code-skills">	
+				<h2>Code Skills</h2>
+				<ul>
+					<li>
+						<div class="progress-bar">
+							<div class="progress progress-bar-1" style="width: 30%;">
+								<span class="progress-type">HTML</span>
+								<span class="progress-completed">30%</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="progress-bar">
+							<div class="progress progress-bar-2" style="width: 30%;">
+								<span class="progress-type">CSS</span>
+								<span class="progress-completed">30%</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="progress-bar">
+							<div class="progress progress-bar-3" style="width: 0%;">
+								<span class="progress-type">JavaScritpt</span>
+								<span class="progress-completed">0%</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="progress-bar">
+							<div class="progress progress-bar-1" style="width: 0%;">
+								<span class="progress-type">JQuery</span>
+								<span class="progress-completed">0%</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="progress-bar">
+							<div class="progress">
+								<div class="progress progress-bar-2" style="width: 25%;">
+								<span class="progress-type">Java</span>
+								<span class="progress-completed">25%</span>
+							</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="progress-bar">
+							<div class="progress">
+								<div class="progress progress-bar-3" style="width: 0%;">
+								<span class="progress-type">SQL</span>
+								<span class="progress-completed">0%</span>
+							</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</article>
+		</div>
+	</section>
+
+	<div class="wrap">
+		<ul class="tabs">
+			<li><a href="#tab-inicio"><i class="fa fa-home"></i><span class="tab-text">Inicio</span></a></li>
+			<li><a href="#tab-nosotros"><i class="fa fa-group"></i><span class="tab-text">Nosotros</span></a></li>
+			<li><a href="#tab-servicios"><i class="fa fa-briefcase"></i><span class="tab-text">Servicios</span></a></li>
+			<li><a href="#tab-blog"><i class="fa fa-bookmark"></i><span class="tab-text">Blog</span></a></li>
+		</ul>
+		<div class="tabs-containers">
+			<article id="tab-inicio">
+				<h1>Inicio</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eius obcaecati quasi aspernatur rem et in earum error ipsam officia aperiam, labore, ipsa necessitatibus nesciunt culpa! Natus dolores mollitia suscipit sequi, ducimus labore molestiae excepturi aliquid eaque aspernatur nesciunt ratione voluptatum id dolor? Fuga deleniti quis dolorem alias maxime provident inventore cum tempora, molestiae veniam quas tenetur, tempore voluptate natus in fugit consequatur ratione quasi veritatis?.</p>
+			</article>
+			<article id="tab-nosotros">
+				<h1>Nosotros</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eius obcaecati quasi aspernatur rem et in earum error ipsam officia aperiam, labore, ipsa necessitatibus nesciunt culpa! Natus dolores mollitia suscipit sequi, ducimus labore molestiae excepturi aliquid eaque aspernatur nesciunt ratione voluptatum id dolor? Fuga deleniti quis dolorem alias maxime provident inventore cum tempora, molestiae veniam quas tenetur, tempore voluptate natus in fugit consequatur ratione quasi veritatis? Quos molestiae eos omnis officiis possimus illo, quis corrupti ipsa optio iure dolore impedit!</p><br />
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam doloremque architecto ad, porro laboriosam fugiat perspiciatis excepturi, repellat aliquam quas illum nobis a mollitia quod aliquid? Eaque mollitia possimus fugit, quos alias numquam velit. Debitis veritatis ullam, quaerat eos amet error laboriosam dolorem soluta facilis alias. Reprehenderit nulla earum ratione.</p>
+			</article>
+			<article id="tab-servicios">
+				<h1>Servicios</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eius obcaecati quasi aspernatur rem et in earum error ipsam officia aperiam, labore, ipsa necessitatibus nesciunt culpa! Natus dolores mollitia suscipit sequi, ducimus labore molestiae excepturi aliquid eaque aspernatur nesciunt ratione voluptatum id dolor? Fuga deleniti quis dolorem alias maxime provident inventore cum tempora, molestiae veniam quas tenetur, tempore voluptate natus in fugit consequatur ratione quasi veritatis? Quos molestiae eos omnis officiis possimus illo, quis corrupti ipsa optio iure dolore impedit! <br /> <br /> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium assumenda autem non odio excepturi recusandae facilis impedit expedita quam optio earum perferendis labore mollitia rerum possimus distinctio, doloremque incidunt nobis!</p>
+			</article>
+			<article id="tab-blog">
+				<h1>Blog</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eius obcaecati quasi aspernatur rem et in earum error ipsam officia aperiam, labore, ipsa necessitatibus nesciunt culpa! Natus dolores mollitia suscipit sequi, ducimus labore molestiae excepturi aliquid eaque aspernatur nesciunt ratione voluptatum id dolor? Fuga deleniti quis dolorem alias maxime provident inventore cum tempora.</p>
+			</article>
+		</div>
+	</div>
+	
+	<section class="portfolio">
+		<h1>Nuestro Portafolio</h1>
+		<div id="slider" class="porfolio-container">
+			<section class="portfolio-item">
+				<img src="img/1.jpg" alt="" class="portfolio-img">
+				<article class="portfolio-text">
+					<h2>Lorem ipsum</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque illo, voluptatum repellendus distinctio praesentium sapiente eos sit odit ab natus!</p>
+				</article>
+			</section>
+			<section class="portfolio-item">
+				<img src="img/2.jpg" alt="" class="portfolio-img">
+				<article class="portfolio-text">
+					<h2>Lorem ipsum</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque illo, voluptatum repellendus distinctio praesentium sapiente eos sit odit ab natus!</p>
+				</article>
+			</section>
+			<section class="portfolio-item">
+				<img src="img/3.jpg" alt="" class="portfolio-img">
+				<article class="portfolio-text">
+					<h2>Lorem ipsum</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque illo, voluptatum repellendus distinctio praesentium sapiente eos sit odit ab natus!</p>
+				</article>
+			</section>
+
+		</div>
+
+		<div class="controls-direction">
+			<div class="prev-button">
+				<i class="fa fa-chevron-left"></i>
+			</div>
+			<div class="next-button">
+				<i class="fa fa-chevron-right"></i>
+			</div>	
+		</div>
     </section>
-      
+
+	<section class="slider-bar">
+	
+		<div class="slideshow">
+			<ul class="slider">
+				<li>
+					<img src="img/4.jpg" alt="">
+					<section class="caption">
+						<h1>Lorem ipsum</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique odit aperiam laudantium, cupiditate commodi suscipit?</p>
+					</section>
+				</li>
+				<li>
+					<img src="img/5.jpg" alt="">
+					<section class="caption">
+						<h1>Lorem ipsum 2</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique odit aperiam laudantium, cupiditate commodi suscipit?</p>
+					</section>
+				</li>
+				<li>
+					<img src="img/6.jpg" alt="">
+					<section class="caption">
+						<h1>Lorem ipsum 3</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique odit aperiam laudantium, cupiditate commodi suscipit?</p>
+					</section>
+				</li>
+				<li>
+					<img src="img/7.jpg" alt="">
+					<section class="caption">
+						<h1>Lorem ipsum 4</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique odit aperiam laudantium, cupiditate commodi suscipit?</p>
+					</section>
+				</li>
+			</ul>
+			
+			<ol class="pagination">
+
+			</ol>
+
+			<div class="prev">
+				<i class="fa fa-chevron-left"></i>
+					
+			</div>
+
+			<div class="next">
+				<i class="fa fa-chevron-right"></i>
+			</div>
+			
+		</div>
+
+		
+	</section>
+
+
     <footer>
-      <div class="container">
-        <p></p>
-         
-      </div>
-    </footer> 
-  </body>
+    	
+    </footer>
+    <script src="js/jquery-3.2.1.js"></script>
+	<script src="js/jquery.nicescroll.js"></script> 
+	<script src="js/main.js"></script>
+
+</body>
 </html>
